@@ -47,11 +47,11 @@ public class Ring{
     boolean isWin(){
 
         if(this.f1.health==0){
-            System.out.println("\n\tKazanan )==> " + this.f2.name + " <==(");
+            System.out.println("\n"+f1.name+"\tYerde\n\nKazanan )==> " + this.f2.name + " <==(");
             return true;
         }
         if(this.f2.health==0){
-            System.out.println("\n\tKazanan )==> " + this.f1.name + " <==(");
+            System.out.println("\n"+f2.name+"\tYerde\n\nKazanan )==> " + this.f1.name + " <==(");
             return true;
         }
 
